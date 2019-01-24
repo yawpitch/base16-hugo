@@ -7,7 +7,7 @@ First you'll need to [configure Hugo's Chroma syntax highlighter](https://gohugo
 
 ```toml
 # config.toml
-pygmentsUseClasses = True
+pygmentsUseClasses = true
 ```
 
 Once classes are enabled you'll need download or copy one of the pre-built `hugo-base16-css/*.css` files and incorporate it into your site. This is an ideal use for [Hugo Pipes](https://gohugo.io/hugo-pipes/), as you can use the [SASS/SCSS](https://gohugo.io/hugo-pipes/scss-sass/) pipe to incorporate and minify the styling CSS for you. Once you've got a pipeline working trying out different Base16 themes is as simple as overwriting a file in the **assets** directory and letting `hugo server` do the rest.
